@@ -2,48 +2,97 @@ body {
   font-family: sans-serif;
   color: #8e8d8a;
   background-color: #d8c385;
+  font-size: 14px;
 }
 
-nav {
-  height: 140px;
-  margin-bottom: 40px;
+.top-bar {
+  height: 100%;
   width: 100%;
   background-color: #eae7dc;
   color: #e98074;
+}
+
+nav {
+  max-width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+
+.nav-menu-top {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.nav-menu {
-  border: 1px solid red;
+.nav-menu-top img {
+  height: 14px;
+  width: 14px;
+  border: .5px solid black;
+  border-radius: 50%;
+  padding: 3px;
+}
+
+.nav-menu-top p {
+  margin: 15px 25px 15px 5px;
+}
+
+
+.menu {
   list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
 }
 
-li {
-  border: 1px solid red;
-  display: inline;
+.menu img {
+  height: 14px;
+  width: 14px;
 }
+
+.menu li {
+  margin: 0 25px 0 5px;
+}
+
+.nav-menu-logo {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.nav-menu-logo h1 {
+  margin: 0;
+}
+
 
 .logo {
-  border: 1px solid red;
+  height: 50px;
+  width: 50px;
+  margin: 0px 25px;
 }
 
 .card-area {
    display: flex;
    justify-content: space-between;
-   /*border: 1px solid #556b2f;*/
+   flex-wrap: wrap;
    width: 80%;
    margin: auto;
    padding: 10px;
+   flex-wrap: wrap;
 }
+
 
 .card {
   width: 23%;
+  min-width: 230px;
   height: 100%;
-  display: inline-block;
   margin: 15px 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #eae7dc;
+}
+
+.card h1 {
+  color: #d8c385;
 }
 
 .card-content {
@@ -58,40 +107,40 @@ li {
 .overlay {
   height: 180px;
   width: 100%;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(0,0,0,0.2);
   z-index: 2;
 }
 
 .image1 {
-  background-image: url('images/1.jpg');
+  background-image: url('images/edit-2030997.jpg');
 }
 
 .image2 {
-  background-image: url('images/2.jpg');
+  background-image: url('images/edit-8252955.jpg');
 }
 
 .image3 {
-  background-image: url('images/3.jpg');
+  background-image: url('images/IMG_4869.jpg');
 }
 
 .image4 {
-  background-image: url('images/4.jpg');
+  background-image: url('images/edit-6151695.jpg');
 }
 
 .image5 {
-  background-image: url('images/5.jpg');
+  background-image: url('images/edit-5250994.jpg');
 }
 
 .image6 {
-  background-image: url('images/6.jpg');
+  background-image: url('images/edit-5122515.jpg');
 }
 
 .image7 {
-  background-image: url('images/7.jpg');
+  background-image: url('images/edit-5041857.jpg');
 }
 
 .image8 {
-  background-image: url('images/8.jpg');
+  background-image: url('images/edit-5041737.jpg');
 }
 
 
@@ -115,4 +164,36 @@ h4 {
   background-color: #b3b4b1;
   color: #8e8d8a;
   padding: 1px 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  .card {
+    width: 48%;
+    min-width: 230px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 96%;
+    min-width: 230px;
+    margin: 15px auto;
+  }
+
+  .nav-menu-top {
+    justify-content: center;
+  }
+
+  .menu {
+    justify-content: center;
+    font-size: 12px;
+  }
+
+  .nav-menu-logo {
+    justify-content: center;
+  }
+
+  .menu li {
+  margin: 0 25px 0 5px;
+}
 }
