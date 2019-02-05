@@ -12,3 +12,8 @@ For this project I was given a static comp and asked to recreate it. I was given
 ![Static Comp 1 Final](images/static-comp-1-final.png "Static Comp 1 Final")
 
 ![Static Comp 1 Final Mobile](images/static-comp-1-final-mobile.png "Static Comp 1 Final Mobile")
+
+
+#### To view my webpage follow the link below.
+
+https://joejohnson3985.github.io/jj-comp-challenge-1/
