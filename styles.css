@@ -1,0 +1,118 @@
+body {
+  font-family: sans-serif;
+  color: #8e8d8a;
+  background-color: #d8c385;
+}
+
+nav {
+  height: 140px;
+  margin-bottom: 40px;
+  width: 100%;
+  background-color: #eae7dc;
+  color: #e98074;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  border: 1px solid red;
+  list-style: none;
+}
+
+li {
+  border: 1px solid red;
+  display: inline;
+}
+
+.logo {
+  border: 1px solid red;
+}
+
+.card-area {
+   display: flex;
+   justify-content: space-between;
+   /*border: 1px solid #556b2f;*/
+   width: 80%;
+   margin: auto;
+   padding: 10px;
+}
+
+.card {
+  width: 23%;
+  height: 100%;
+  display: inline-block;
+  margin: 15px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #eae7dc;
+}
+
+.card-content {
+  padding: 15px;
+}
+.card-image {
+  width: 100%;
+  height: 180px;
+  background-size: cover;
+}
+
+.overlay {
+  height: 180px;
+  width: 100%;
+  background-color: rgba(0,0,0,0.3);
+  z-index: 2;
+}
+
+.image1 {
+  background-image: url('images/1.jpg');
+}
+
+.image2 {
+  background-image: url('images/2.jpg');
+}
+
+.image3 {
+  background-image: url('images/3.jpg');
+}
+
+.image4 {
+  background-image: url('images/4.jpg');
+}
+
+.image5 {
+  background-image: url('images/5.jpg');
+}
+
+.image6 {
+  background-image: url('images/6.jpg');
+}
+
+.image7 {
+  background-image: url('images/7.jpg');
+}
+
+.image8 {
+  background-image: url('images/8.jpg');
+}
+
+
+img {
+  width: 100%;
+}
+
+h2, h1 {
+  color: #e85a4f;
+}
+
+.card h1 {
+  font-size: 30px;
+  margin: 0px;
+}
+h4 {
+  color: #e98074;
+}
+
+.card-link {
+  background-color: #b3b4b1;
+  color: #8e8d8a;
+  padding: 1px 10px;
+}
